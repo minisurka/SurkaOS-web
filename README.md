@@ -1,3 +1,3 @@
-OriginOS WEB 
+SurkaOS WEB 
 
-OOSP - OriginWEB open source project
+OOSP - Fork OriginWEB open source project
