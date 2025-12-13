@@ -2885,39 +2885,39 @@ document
 
 const defaultConfig = {
   // Closing Transform closing
-  valTimeTransform: 0.5,
+  valTimeTransform: 0.53,
   valDampingTransform: 0,
 
   // Closing Scale closing
-  timeScale: 0.5,
-  valDampingScale: 0,
+  timeScale: 0.7,
+  valDampingScale: 0.1,
 
   // Easing closing
-  valEasing: 0.25,
+  valEasing: 0.00,
   easingScaleClosing: 1 - 0.25,
 
   // Opening App
-  time_allTmp: 0.25,
-  valScaleApp: 86,
+  time_allTmp: 0.47,
+  valScaleApp: 95,
   valScaleWallpaper: 110,
-  cubic_ratioParam: "cubic-bezier(0.07,0.74,0.37,0.98)",
-  cubic_allParam: "cubic-bezier(0.25,0.1,0.25,1)",
+  cubic_ratioParam: "cubic-bezier(0.00,1.00,0.35,0.80)",
+  cubic_allParam: "cubic-bezier(0.16,0.80,0.30,0.90)",
 
   timeHidingIconAppTmp: 0.3,
-  delayHidingIconAppTmp: 0,
+  delayHidingIconAppTmp: 0.05,
 
-  timeShowingIconAppTmp: 0.3,
-  delayShowingIconAppTmp: 0.05,
+  timeShowingIconAppTmp: 0.6,
+  delayShowingIconAppTmp: 0.06,
   positionIconOpening: "top",
   sizeIconOpening: "100%",
 
-  sensitivityNavBarValue: 0.08,
-  maxDragNavValue: 150,
+  sensitivityNavBarValue: 0.2,
+  maxDragNavValue: 170,
 
   easingForUnlockAnimation: 0.25,
   speedForUnlockAnimation: 0.6,
-  animationGroupForUnlockAnimation: 1,
-  animationForUnlockAnimation: 1,
+  animationGroupForUnlockAnimation: 3,
+  animationForUnlockAnimation: 5,
 };
 
 const mappingAnimationTXT = {
@@ -3311,3 +3311,4 @@ function preivewAnimationControlsCenter(e) {
 
   closeControlsCenter();
 }
+
